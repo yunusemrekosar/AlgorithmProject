@@ -38,7 +38,7 @@ namespace AlgorithmProjectLena
                         matrixResult.Add(new List<Event>());
 
                         //Bu değişken de eğer aynı anda birden fazla etkinlik varsa birisine gidilmesi gerektiğinden daha yüksek öncelik puanı toplanabilecek etkinlik planlarını devre dışı bırakmak için tanımlandı ilgili işlemi 85. satırda yapıyorum
-                        haveToChoose = events.IndexOf(a);
+                        haveToChoose = _events.IndexOf(a);
                         continue;
                     }
                 }

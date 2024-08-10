@@ -11,11 +11,22 @@ var durationBetweenLocationsMatrix = new List<DurationBetweenLocation>
     new DurationBetweenLocation { From = 'C', To = 'D', DurationMinutes = 25 }
 };
 
-List<Event> events = new List<Event>
+//List<Event> events = new List<Event>
+//{
+//    new Event { Id = 1, StartTime = "10:01", EndTime = "12:45", Location = 'A', Priority = 50 },
+//    new Event { Id = 2, StartTime = "10:00", EndTime = "11:00", Location = 'B', Priority = 30 },
+//    new Event { Id = 3, StartTime = "12:30", EndTime = "13:30", Location = 'A', Priority = 40 },
+//    new Event { Id = 4, StartTime = "14:30", EndTime = "16:00", Location = 'C', Priority = 70 },
+//    new Event { Id = 5, StartTime = "14:25", EndTime = "15:30", Location = 'B', Priority = 60 },
+//    new Event { Id = 6, StartTime = "13:00", EndTime = "14:00", Location = 'D', Priority = 80 },
+//    new Event { Id = 7, StartTime = "11:00", EndTime = "12:00", Location = 'B', Priority = 330 },
+//};
+
+var events = new List<Event>
 {
-    new Event { Id = 1, StartTime = "10:00", EndTime = "12:45", Location = 'A', Priority = 50 },
-    new Event { Id = 2, StartTime = "10:00", EndTime = "11:00", Location = 'B', Priority = 30 },
-    new Event { Id = 3, StartTime = "12:30", EndTime = "13:30", Location = 'A', Priority = 40 },
+    new Event { Id = 1, StartTime = "10:00", EndTime = "12:00", Location = 'A', Priority = 50 },
+    new Event { Id = 2, StartTime = "10:00", EndTime = "11:00", Location = 'B', Priority = 80 },
+    new Event { Id = 3, StartTime = "11:30", EndTime = "12:30", Location = 'A', Priority = 40 },
     new Event { Id = 4, StartTime = "14:30", EndTime = "16:00", Location = 'C', Priority = 70 },
     new Event { Id = 5, StartTime = "14:25", EndTime = "15:30", Location = 'B', Priority = 60 },
     new Event { Id = 6, StartTime = "13:00", EndTime = "14:00", Location = 'D', Priority = 80 }
